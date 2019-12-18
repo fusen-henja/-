@@ -1,0 +1,162 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+*{
+box-sizing:border-box;
+}
+body{
+background-color:#d2d9e1;
+color:black;
+}
+
+header {
+
+height:52px;
+width:100%;
+background-color:#53556e;
+opacity:0.8;
+}
+
+.logo{
+height:52px;
+float:left;}
+
+header a{
+float:right;
+text-align:center;
+height:52px;
+color:white;
+display:inline-block;
+background-color:#53556e;
+width:100px;
+font-size:15px;
+line-height:52px;
+
+}
+
+header a:hover{
+background-color:rgba(95,109,133,0.8);
+opacity:0.8;
+cursor:pointer;
+}
+.top{
+max-width:1000px;
+height:400px;
+background-image:url(https://cdn-ak.f.st-hatena.com/images/fotolife/a/akutoku111/20191128/20191128231923.png);
+background-size:cover;
+margin:0 auto;
+font-weight: bold;
+width:100%;
+position:relative;
+margin-bottom:30px;
+
+
+}
+.topbun{
+position:absolute;
+text-align:center;
+margin:0 auto;
+
+width:100%;
+}
+.inmain{
+max-width:1180px;
+width: 100%;
+margin:0 auto;
+
+
+}
+
+.monoji{
+display:block;
+height:55px;
+line-height:55px;
+margin-top:40px;
+text-align:center;
+background-color:#4a8060;
+width:200px;
+}
+
+.flex{
+display:flex;
+flex-wrap:wrap;
+}
+.content{
+flex:auto;
+width:50%;
+margin-bottom:50px;
+}
+
+
+.contentBun{
+padding-left:60px;
+}
+.mokuji{
+
+padding-top:30px;
+margin-bottom:30px;
+background-color:#f0f3e9;
+}
+footer{
+width:100%;
+height:30px;
+text-align:center;
+background-color:darkslategray;
+opacity:1;
+line-height:30px;
+}
+
+/*パンくずリストのＣＳＳ*/
+.cp_breadcrumb *, .cp_breadcrumb *:after, .cp_breadcrumb *:before {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.cp_breadcrumb {
+	overflow: hidden;
+	width: 100%;
+	margin: 10px auto;
+	padding: 0;
+	list-style: none;
+}
+.cp_breadcrumb li {
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+.cp_breadcrumb a {
+	position: relative;
+	z-index: 1;
+	padding: 0.7em 1em 0.7em 2em;
+	text-decoration: none;
+	color: #003860;
+	border-radius: 0.4em 0 0 0.4em;
+	background:#cccb75;
+	display: inline-block;
+	height: 40px;
+	line-height: 1em;
+	-webkit-transition:all 0.3s;
+	transition: all 0.3s;
+}
+.cp_breadcrumb a:hover {
+	background:#eeed97;
+}
+.cp_breadcrumb a::after{
+	background: #cccb75;
+	content: "";
+	height: 2em;
+	position: absolute;
+	right: -1em;
+	top: calc(50% - 1em);
+	width: 2em;
+	z-index: -1;
+	transform: rotate(45deg);
+	border-radius: .4em;
+	-webkit-transition:all 0.3s;
+	transition: all 0.3s;
+}
+.cp_breadcrumb a:hover::after {
+	background: #eeed97;
+}
+
