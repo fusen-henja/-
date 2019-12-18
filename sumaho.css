@@ -1,0 +1,66 @@
+
+/*details のメディアクエリ　de~にしている。*/
+  @media (max-width:1030px){
+   
+    
+     
+    .deincident{
+      width:100%;
+     }
+    .deincident p{
+      font-size:15px;
+     }
+    .demain{
+      padding:0 30px;
+      margin:0 auto;
+      height:1800px;
+     }
+
+  }
+  @media (max-width:900px){
+    .demain {
+      height:2200px;
+      padding:0 30px;
+      margin:0 auto;
+    }
+  }
+  @media (min-width:1030px){
+    .delink{
+      position:absolute;
+      right:50px;
+      top:400px;
+    }
+    .demain{
+      padding:0 20px;
+      margin:0 auto;
+    }
+  }
+  
+  /*目次のメディアクエリ*/
+   @media (max-width:1180px){
+     .inmain{
+       padding:0 30px;
+       margin:0 auto;
+     }
+   }
+   @media (max-width:900px){
+     .content{
+       flex:auto;
+       width:80%;
+       margin-bottom:50px;
+     }
+     .inmain{
+       padding:0 30px;
+       margin:0 auto;
+     }
+     header{
+       width:100%;
+     }
+    }
+   /*はじめにのメディアクエリ*/
+    @media (max-width:1080px){
+     .hamain{
+       padding:0 30px;
+       margin:0 auto;
+     }
+   }
