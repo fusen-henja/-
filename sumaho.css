@@ -60,6 +60,7 @@
     
      @media all and (orientation: portrait){
      header{
+     max-width:800px;
      min-width:200px;
      position:fixed;
      width:100%;
