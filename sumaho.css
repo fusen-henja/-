@@ -70,7 +70,15 @@
      .menu{
      display:none;
      }
-     
+     .content{
+
+flex:auto;
+
+width:100%;
+
+margin-bottom:50px;
+
+}
     .fx1 {
     display:inline-block;
     float:right;
