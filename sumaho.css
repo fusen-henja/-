@@ -58,7 +58,7 @@
      }
     }
     
-     @media (max-width:500px){
+     @media all and (orientation: portrait){
      header{
      min-width:200px;
      position:fixed;
