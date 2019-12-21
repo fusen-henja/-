@@ -59,8 +59,10 @@
     }
     
      @media all and (orientation: portrait){
+      .menu{
+     display:none;
+     }
      header{
-     max-width:800px;
      min-width:200px;
      position:fixed;
      width:100%;
@@ -68,19 +70,17 @@
      opacity:1;
      z-index:15;
      }
-     .menu{
-     display:none;
-     }
+     
      .content{
        flex:auto;
        width:100%;
        margin-bottom:50px;
        }
        .top{
-       max-width:450px;
+       display:none;
        }
        .inmain{
-       height:3000px;
+       height:1500px;
        }
        footer{
        bottom:0px;
